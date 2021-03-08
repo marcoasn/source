@@ -29,7 +29,7 @@ void inserirElementoNoFim(int** lista, int valor, int* tam, int* capacidade)
         (*lista) = temp;
         (*capacidade) = 2 * (*capacidade);
 
-        printf("oi");
+        
     }
 
     (*lista)[(*tam)] = valor;
